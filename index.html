@@ -1,11 +1,45 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barbearia Senhor Macho</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <header class="main-header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="login-main">
+        <div class="login-container">
+            <img class="logo" src="senhor-macho.jpg" alt="Logo Barbearia">
+            <h2 class="login-title">LOGIN</h2>
+            <form class="login-form">
+                <div class="input-group">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+                </div>
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                </div>
+                <button type="button" class="btn-entrar" onclick="window.location.href='servicos.html'">Entrar</button>
+            </form>
+            <div class="register-section">
+                <span class="no-account">Ainda não tem conta?</span>
+                <a href="cadastro.html" class="btn-cadastrar">Cadastrar</a>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <span>© 2025 Senhor Macho - Barbearia</span>
+    </footer>
 </body>
 </html>
