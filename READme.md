@@ -7,7 +7,7 @@ Integrantes e desenvolvedores: Carlos Henrique e Daniel Luiz
 - Objetivo: Melhorar a interface e experiência do usuário, chamando a atenção de mais clientes.
 Público-alvo: Homens que prezam sua aparência e saúde capilar.
 - Páginas principais: Início, Serviços, Cadastro, e Sobre
-- Elementos essenciais: Botão para selecionar corte de cabelo, agendamento, e cancelamento.
+- Elementos essenciais: Botão para selecionar corte de cabelo e agendamento.
 - Escolha do negócio: Escolhemos essa barbearia como tema porque o site deles é bem simples e nada chamativo, atraindo somente clientes da comunidade que já conheciam a barbearia antiga.	
 
 Protótipo no Figma: https://www.figma.com/design/B8XAjXP5pkrs7BJZj9EGKc/Protótipo-Front-End?node-id=0-1&p=f&t=iNpwRg2MluBQxjYZ-0
