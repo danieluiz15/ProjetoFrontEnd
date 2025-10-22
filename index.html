@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,13 +23,14 @@
             <form class="login-form">
                 <div class="input-group">
                     <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+                    <input type="text" id="usuario" placeholder="Digite seu usuário">
+                    <p id="mensagem"></p>
                 </div>
                 <div class="input-group">
                     <label for="senha">Senha</label>
                     <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
                 </div>
-                <button type="button" class="btn-entrar" onclick="window.location.href='servicos.html'">Entrar</button>
+                <button type="button" id="btn-entrar" >Entrar</button>
             </form>
             <div class="register-section">
                 <span class="no-account">Ainda não tem conta?</span>
@@ -41,5 +41,29 @@
     <footer class="main-footer">
         <span>© 2025 Senhor Macho - Barbearia</span>
     </footer>
+    <script>
+        const botao = document.querySelector("#btn-entrar");
+        const titulo = document.querySelector("#btn-entrar");
+
+        botao.onclick = function() {
+            titulo.innerHTML = "Entrando";
+            titulo.style.color = "white";
+            document.body.style.backgroundColor = "black"
+            window.location.href='servicos.html'
+
+        };
+
+        const campo = document.querySelector("#usuario");
+        const mensagem = document.querySelector("#mensagem");
+
+        campo.oninput = function() {
+            mensagem.innerHTML = "Bem-vindo de volta, " + campo.value + "!";
+        }
+
+    </script>
+
+
 </body>
+
+
 </html>
