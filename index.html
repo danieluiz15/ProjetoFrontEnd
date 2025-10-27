@@ -18,7 +18,7 @@
     </header>
     <main class="login-main">
         <div class="login-container">
-            <img class="logo" src="senhor-macho.jpg" alt="Logo Barbearia">
+            <img id="fotoDestaque" class="logo" src="senhor-macho.jpg" alt="Logo Barbearia">
             <h2 class="login-title">LOGIN</h2>
             <form class="login-form">
                 <div class="input-group">
@@ -59,7 +59,7 @@
         campo.oninput = function() {
             mensagem.innerHTML = "Bem-vindo de volta, " + campo.value + "!";
         }
-        const imagem = document.querySelector(".logo");
+        const imagem = document.querySelector("#fotoDestaque");
 
       imagem.onmouseover = function() {
       imagem.style.opacity = "0.6";
