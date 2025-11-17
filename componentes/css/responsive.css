@@ -1,0 +1,80 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/* Desktop grande */
+@media (max-width: 1200px) {
+	.servicos-hero-section {
+		padding: 48px 60px;
+		gap: 40px;
+	}
+	.nav-menu a {
+		font-size: 28px;
+	}
+}
+
+/* Desktop */
+@media (max-width: 992px) {
+	.servicos-hero-section {
+		padding: 40px 40px;
+		max-width: 900px;
+	}
+	.servicos-hero-title { font-size: 48px; }
+	.servicos-hero-subtitle { font-size: 24px; }
+	.nav-menu ul { gap: 36px; padding-right: 24px; }
+	.login-container, .register-container, .servicos-container, .sobre-container {
+		padding: 32px 36px;
+	}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	.nav-menu ul {
+		gap: 20px;
+		padding: 0 12px 0 0;
+	}
+	.nav-menu a { font-size: 20px; }
+
+	.servicos-hero-section {
+		flex-direction: column;
+		padding: 24px;
+		gap: 24px;
+		border-radius: 24px;
+	}
+	.servicos-hero-image {
+		width: 220px;
+		height: 220px;
+	}
+	.servicos-hero-title { font-size: 40px; }
+	.servicos-hero-subtitle { font-size: 20px; }
+
+	.servicos-cards { gap: 18px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+	.servicos-container, .login-container, .register-container, .sobre-container {
+		min-width: auto; max-width: 92%;
+	}
+
+	.logo { width: 180px; height: 180px; }
+	.login-title, .register-title, .sobre-title { font-size: 28px; }
+	#btn-entrar { font-size: 20px; height: 56px; }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+	.nav-menu ul { flex-direction: column; align-items: center; gap: 12px; padding: 0; }
+	.nav-menu a { font-size: 18px; }
+
+	.servicos-hero-section { padding: 18px; border-radius: 18px; }
+	.servicos-hero-image { width: 160px; height: 160px; }
+	.servicos-hero-title { font-size: 32px; }
+	.servicos-hero-subtitle { font-size: 18px; }
+
+	.logo { width: 140px; height: 140px; }
+	.login-container, .register-container, .servicos-container, .sobre-container { padding: 18px; }
+
+	.input-group input { font-size: 16px; height: 40px; }
+	.register-form .btn-cadastrar { font-size: 20px; height: 56px; }
+	#btn-entrar { font-size: 18px; height: 52px; }
+
+	.servicos-cards { grid-template-columns: 1fr; gap: 12px; }
+}
+

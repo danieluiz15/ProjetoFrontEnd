@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Senhor Macho</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="componentes/css/responsive.css">
 </head>
 <body>
     <div id="topo"></div>
@@ -19,7 +20,7 @@
     </header>
     <main class="login-main">
         <div class="login-container">
-            <img id="fotoDestaque" class="logo" src="senhor-macho.jpg" alt="Logo Barbearia">
+            <img class="logo" src="componentes/img/senhor-macho.jpg" alt="Logo Barbearia">
             <h2 class="login-title">LOGIN</h2>
             <form class="login-form">
                 <div class="input-group">
@@ -61,17 +62,9 @@
         campo.oninput = function() {
             mensagem.innerHTML = "Bem-vindo de volta, " + campo.value + "!";
         }
-        const imagem = document.querySelector("#fotoDestaque");
-
-      imagem.onmouseover = function() {
-          imagem.style.opacity = "0.6";
-      }
-
-      imagem.onmouseout = function() {
-          imagem.style.opacity = "1";
-      }
 
     </script>
+
 
 </body>
 
