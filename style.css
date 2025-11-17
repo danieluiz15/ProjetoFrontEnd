@@ -6,6 +6,10 @@
 	margin-top: 32px;
 	width: 100%;
 }
+
+:root {
+	--footer-gray: #938F8F;
+}
 .servico-card {
 	background: #23242A;
 	border-radius: 24px;
@@ -348,6 +352,29 @@ body {
 #btn-entrar:hover {
 	background: #FF8800;
 }
+
+/* Botão fixo central na margem inferior, usando mesma cor cinza do footer */
+#btn-entrar.fixed-footer-btn {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+	width: auto;
+	min-width: 220px;
+	height: 56px;
+	background: var(--footer-gray);
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 12px 28px;
+	border-radius: 30px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+	z-index: 1000;
+	margin: 0;
+}
+#btn-entrar.fixed-footer-btn:hover {
+	background: #7f7c7c;
+}
 .register-section {
 	display: flex;
 	align-items: center;
@@ -371,6 +398,8 @@ body {
 .btn-cadastrar:hover {
 	background: #FBBC05;
 }
+/* Botão 'Voltar ao topo' centralizado e fixo na base da página */
+/* `.back-to-top` removed to keep the link unstyled per request */
 .main-footer {
 	width: 100%;
 	text-align: center;
@@ -378,4 +407,13 @@ body {
 	color: #938F8F;
 	font-size: 20px;
 	font-weight: 400;
+}
+
+/* Centraliza o link simples 'Voltar ao topo' colocado logo após o footer */
+footer + a[href="#topo"] {
+    display: block;
+    text-align: center;
+    margin: 8px 0 20px 0;
+    color: var(--footer-gray);
+    text-decoration: none;
 }
