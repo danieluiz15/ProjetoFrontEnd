@@ -44,6 +44,6 @@ Componentes reutilizáveis:
 - Rodapé (footer) está presente em todas as páginas.
 - Os cards de serviços também possuem a mesma estrutura.
 
-
+Implementamos a interação de voltar ao topo da página, dando mais interatividade para o usuário com o site.
 
 
