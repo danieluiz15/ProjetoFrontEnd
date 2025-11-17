@@ -33,6 +33,17 @@ Justificativas design:
 - Layout: O layout é centralizado e responsivo, garantindo que o conteúdo fique acessível em diferentes tamanhos de tela. Os cards de serviço organizam informações de forma clara, com nome, preço e ação.
 - Usabilidade e experiência: O design prioriza a navegação simples e intuitiva, com menus claros e botões destacados. As cores e fontes facilitam a leitura e direcionam o olhar para as ações principais. O layout permite que o usuário encontre rapidamente o que procura, melhorando a experiência.
 
+Revisão do código: 
+- O site está funcionando perfeitamente, com todos os botões levando para uma parte da página, e sem redundâncias.
+- Os elementos HTML que se repetem em várias páginas são as tags <header> e <nav> de menu, e a tag <footer> de rodapé.
+- Algumas melhorias para um usuário do pequeno négocio seriam a implementação de mais funções dentro da página, mais opções de serviços, e a opção de escolher o profisional e agendar o corte de cabelo.
 
+Componentes reutilizáveis: 
+- O cabeçalho (header) é idêntico em todas as páginas.
+- O menu de navegação (nav) é o mesmo pelo site.
+- Rodapé (footer) está presente em todas as páginas.
+- Os cards de serviços também possuem a mesma estrutura.
+
+Implementamos a interação de voltar ao topo da página, dando mais interatividade para o usuário com o site.
 
 
