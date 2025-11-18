@@ -33,6 +33,9 @@ Justificativas design:
 - Layout: O layout é centralizado e responsivo, garantindo que o conteúdo fique acessível em diferentes tamanhos de tela. Os cards de serviço organizam informações de forma clara, com nome, preço e ação.
 - Usabilidade e experiência: O design prioriza a navegação simples e intuitiva, com menus claros e botões destacados. As cores e fontes facilitam a leitura e direcionam o olhar para as ações principais. O layout permite que o usuário encontre rapidamente o que procura, melhorando a experiência.
 
+Melhorias implementadas na Parte 2: 
+- Escolhemos usar o Google Maps, o botão de WhatsApp e os links das redes sociais porque são as coisas que realmente ajudam num site de barbearia. O Maps facilita pro cliente achar o lugar, o WhatsApp deixa o contato muito mais rápido, e as redes sociais mostram o trabalho da barbearia na prática. São integrações fáceis de colocar e que deixam o site mais útil sem complicar nada.
+
 Revisão do código: 
 - O site está funcionando perfeitamente, com todos os botões levando para uma parte da página, e sem redundâncias.
 - Os elementos HTML que se repetem em várias páginas são as tags <header> e <nav> de menu, e a tag <footer> de rodapé.
