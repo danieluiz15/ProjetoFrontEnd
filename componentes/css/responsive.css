@@ -76,5 +76,13 @@ html {
 	#btn-entrar { font-size: 18px; height: 52px; }
 
 	.servicos-cards { grid-template-columns: 1fr; gap: 12px; }
+
+}
+
+/* Ajuste para ícone do Instagram em telas menores */
+@media (max-width: 420px) {
+  .redes-sociais img {
+    width: 24px;
+  }
 }
 

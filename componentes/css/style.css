@@ -379,3 +379,16 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 }
+
+.redes-sociais {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Ícone do Instagram (tamanho padrão para componentes) */
+.redes-sociais img {
+	width: 28px;
+	height: auto;
+	display: inline-block;
+}

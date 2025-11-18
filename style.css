@@ -353,7 +353,6 @@ body {
 	background: #FF8800;
 }
 
-/* Botão fixo central na margem inferior, usando mesma cor cinza do footer */
 #btn-entrar.fixed-footer-btn {
 	position: fixed;
 	left: 50%;
@@ -398,8 +397,13 @@ body {
 .btn-cadastrar:hover {
 	background: #FBBC05;
 }
-/* Botão 'Voltar ao topo' centralizado e fixo na base da página */
-/* `.back-to-top` removed to keep the link unstyled per request */
+
+.redes-sociais img {
+	width: 65px;
+	height: auto;
+	display: inline-block;
+}
+
 .main-footer {
 	width: 100%;
 	text-align: center;
@@ -409,7 +413,6 @@ body {
 	font-weight: 400;
 }
 
-/* Centraliza o link simples 'Voltar ao topo' colocado logo após o footer */
 footer + a[href="#topo"] {
     display: block;
     text-align: center;
