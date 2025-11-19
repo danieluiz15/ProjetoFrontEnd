@@ -65,6 +65,10 @@ Componentes reutilizáveis:
 - Rodapé (footer) está presente em todas as páginas.
 - Os cards de serviços também possuem a mesma estrutura.
 
-
+Testes realizados: 
+- Testamos o site em diferentes navegadores como o Microsoft Edge, Opera, e Safari.
+- Lista de dispositivos testados: Desktop, Iphone SE, Iphone 16, e Ipad Pro.
+- Encontramos problemas na hora de utilizar o DevTools, mas conseguimos resolver sem muita dificuldade.
+- Os prints dos navegadores e resoluções testas estão em docs/testes-navegadores/testes-responsividade.
 
 
