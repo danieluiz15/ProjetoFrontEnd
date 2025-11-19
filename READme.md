@@ -24,7 +24,7 @@ Estrutura de pastas e arquivos:
     footer.html
     header.html
     nav.html
-    
+
 - Index.html: Página inicial do site
 - Servicos.html: Página de serviços
 - Cadastro.html: Página de cadastro
