@@ -12,6 +12,8 @@ Público-alvo: Homens que prezam sua aparência e saúde capilar.
 
 Protótipo no Figma: https://www.figma.com/design/B8XAjXP5pkrs7BJZj9EGKc/Protótipo-Front-End?node-id=0-1&p=f&t=iNpwRg2MluBQxjYZ-0
 
+Tecnologias utilizadas: HTML5, CSS3, JavaScript, Figma, e Git.
+
 Estrutura de pastas e arquivos: 
 + Componentes/
     css/ 
@@ -32,11 +34,14 @@ Estrutura de pastas e arquivos:
 - Style.css: Arquivo com a estilização da página usando CSS
 
 Etapas realizadas: 
-- Escolha do site: Daniel(08/10/2025)
-- Protótipo no Figma: Carlos(08/10/2025)
-- Desenvolvimento do código em HTML e CSS: Daniel e Carlos(09/10/2025)
-- Versionamento: Daniel(12/10/2025)
-- Documentação: Daniel e Carlos(12/10/2025)
+- Parte 1: Escolha do site, protótipo do Figma, desenvolvimento do código.
+- Parte 2: Modularização do código, consolidação de acessibilidade, e implementação de integraçõees úteis para o site.
+- Parte 3: Otimização, testes, e publicação do site.
+
+Acesso ao Site:
+- https://danieluiz15.github.io/ProjetoFrontEnd/index.html
+- <img width="1848" height="998" alt="image" src="https://github.com/user-attachments/assets/609feb7c-e874-4421-b64b-4182d3e6c04c" />
+- Data de publicação: 19/11/2025
 
 Justificativas design:
 - Fontes: Foi escolhida a fonte Inter por sua boa legibilidade em telas digitaise e visual moderno. O estilo da fonte transmite profissionalismo e acessibilidade, alinhando com o nosso público-alvo.
