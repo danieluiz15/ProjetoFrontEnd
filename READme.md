@@ -78,6 +78,9 @@ Reflexão do Daniel Luiz:
 - Desafios do projeto: O maior desafio foi sem dúvidas o desenvolvimento do site, mas com o trabalho em equipe, conseguimos alcançar o nosso objetivo. Se eu pudesse voltar no tempo, teria implementado mais algumas funções que não foram incluídas no projeto.
 
 Reflexão do Carlos Henrique: 
+- Aprendizados técnicos: Avancei bastante em HTML, CSS e Git, e o mais desafiador foi modularizar o JavaScript, mas isso me deixou mais seguro para estruturar sites do zero.
+- Aprendizados do processo: Trabalhar em dupla com o Daniel funcionou bem — dividimos as páginas e funções para coordenar tudo, apesar dos horários diferentes.
+- Desafios do projeto: O ponto mais difícil do projeto foi garantir responsividade em vários dispositivos, algo que resolvemos com muitos testes e ajustes nos media queries. Se fosse refazer, organizaria melhor a estrutura inicial e documentaria mais durante o processo.
 
 Reflexão da dupla:
 - Evolução do projeto: O projeto evoluiu bastante desde a parte 1 até agora, implementamos diversas melhorias dentro do nosso site, tanto visuais e práticas. Ficamos satisfeitos com o resultado final.
@@ -87,5 +90,7 @@ Reflexão da dupla:
 Próximos Passos e Melhorias Futuras: 
 - Melhorias técnicas planejadas: Adicionar interação com os cards de serviço, melhorar acessibilidade em dispositivos mobile, e implementar um pequeno banco de dados interativo com JavaScript.
 - Conhecimetos a aprofundar: Implementar animações mais complexas com o CSS, botões responsivos com JavaScript, e aprofundar mais em acessibilidade WCAG.
-- Aplicação em disciplinas futuras: Iremos utilizar desse aprendizado em projetos futuros para melhores resultados. 
+- Aplicação em disciplinas futuras: Iremos utilizar desse aprendizado em projetos futuros para melhores resultados.
+
+Todos os direitos de imagem reservados a Barbearia Senhor Macho
 
