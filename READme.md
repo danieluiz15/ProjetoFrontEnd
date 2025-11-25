@@ -3,6 +3,7 @@ Documentação do Projeto Integrador de Desenvolvimento Front-End
 Nome do projeto: Barberia Senhor Macho
 Integrantes e desenvolvedores: Carlos Henrique e Daniel Luiz
 
+Descrição do projeto: 
 - Site escolhido: https://ladi683.gendo.app/#/ (Barbearia Senhor Macho).
 - Objetivo: Melhorar a interface e experiência do usuário, chamando a atenção de mais clientes.
 Público-alvo: Homens que prezam sua aparência e saúde capilar.
@@ -71,4 +72,20 @@ Testes realizados:
 - Encontramos problemas na hora de utilizar o DevTools, mas conseguimos resolver sem muita dificuldade.
 - Os prints dos navegadores e resoluções testas estão em docs/testes-navegadores/testes-responsividade.
 
+Reflexão do Daniel Luiz:
+- Aprendizados técnicos: Desenvolvi habilidades técnicas muito importantes como o uso de HTML, CSS, JavaScript, e Git. O mais desafiador de aprender foi definitivamente o JavaScript, por ser uma linguagem de programação muito poderosa e complexa. Mas ao mesmo tempo, esse projeto me deu a oportunidade de dominar Git e HTML.
+- Aprendizados do processo: Eu gostei muita da experiência de trabalhar com o Carlos, e conseguimos nos comunicar e executar todas as etapas do projeto sem muita dificuldade. Organizamos todas as etapas de uma forma que tivemos a mesma quantidade de trabalho, e isso ajudou muito para que a metodologia da nossa dupla fosse igulitária e tranquila.
+- Desafios do projeto: O maior desafio foi sem dúvidas o desenvolvimento do site, mas com o trabalho em equipe, conseguimos alcançar o nosso objetivo. Se eu pudesse voltar no tempo, teria implementado mais algumas funções que não foram incluídas no projeto.
+
+Reflexão do Carlos Henrique: 
+
+Reflexão da dupla:
+- Evolução do projeto: O projeto evoluiu bastante desde a parte 1 até agora, implementamos diversas melhorias dentro do nosso site, tanto visuais e práticas. Ficamos satisfeitos com o resultado final.
+- Feedbacks recebidos: Aprendemos com a avaliação dos nossos colegas que ainda temos espaço pra melhorar. Os feedbacks sobre funcionalidades em outros dispositivos como mobile, ainda precisam ser melhorados. Pretendemos aplicar as sugestões deles de acordo com o desenvolvimento do projeto.
+- Relevância para o negócio: O site definitivamente agregaria valor ao pequeno negócio que escolhemos, podendo fornecer um site mais moderno e atrativo para o dono. Usaríamos esse projeto como portfólio para adicionar mais conhecimento ao nosso currículo.
+
+Próximos Passos e Melhorias Futuras: 
+- Melhorias técnicas planejadas: Adicionar interação com os cards de serviço, melhorar acessibilidade em dispositivos mobile, e implementar um pequeno banco de dados interativo com JavaScript.
+- Conhecimetos a aprofundar: Implementar animações mais complexas com o CSS, botões responsivos com JavaScript, e aprofundar mais em acessibilidade WCAG.
+- Aplicação em disciplinas futuras: Iremos utilizar desse aprendizado em projetos futuros para melhores resultados. 
 
